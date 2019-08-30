@@ -8,4 +8,4 @@ def hello():
   return "Hello World! This is first Flask App by Sarath Kunala as a Docker Image running on Kubernetes Cluster"
 
 if __name__ == "__main__":
-  app.run()
+  app.run(host='0.0.0.0')
